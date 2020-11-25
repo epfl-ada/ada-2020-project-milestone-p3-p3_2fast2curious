@@ -1,4 +1,4 @@
-﻿# Creative extension proposal from a study about the impact of replacing dirt floors with cement floors on child health and adult happiness
+# Creative extension proposal from a study about the impact of replacing dirt floors with cement floors on child health and adult happiness
 
 **Publication** : Cattaneo, Matias D., Sebastian Galiani, Paul J. Gertler, Sebastian Martinez, and Rocio Titiunik. 2009. "Housing, Health, and Happiness." American Economic Journal: Economic Policy, 1 (1): 75-105.
 
@@ -28,7 +28,7 @@ The [original dataset](https://www.openicpsr.org/openicpsr/project/114542/versio
 
 **Week 1** : handling missing values, lasso regularization and PCA to identify relevant features. 
 **Week 2** : pair matching to visualize the effect of Piso Firme on the selected features. 
-**Week 3** : generation of plots for the report and data story. Start with the report and the data story. 
+**Week 3** : generation of plots for the report and data story. Start with the report/data story. 
 **Week 4** : preparation of the video. 
 
 ## Organization within the team
@@ -36,7 +36,7 @@ The [original dataset](https://www.openicpsr.org/openicpsr/project/114542/versio
 **Elia** : dealing with missing values. Lasso regularization. 
 **Hugo** : PCA, feature selection. 
 **Pierre** : matching and checking the influence of the Piso Firme. 
-**Together** : defining which plots should be made, report, data story and video. 
+**Together** : defining which plots should be made, report/data story and video. 
 
 ## Questions for the TAs
 
