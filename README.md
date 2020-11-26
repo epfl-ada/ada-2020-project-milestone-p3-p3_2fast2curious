@@ -27,15 +27,21 @@ The [original dataset](https://www.openicpsr.org/openicpsr/project/114542/versio
 ## Proposed timeline
 
 **Week 1** : handling missing values, lasso regularization and PCA to identify relevant features. 
+
 **Week 2** : pair matching to visualize the effect of Piso Firme on the selected features. 
+
 **Week 3** : generation of plots for the report and data story. Start with the report/data story. 
+
 **Week 4** : preparation of the video. 
 
 ## Organization within the team
 
 **Elia** : dealing with missing values. Lasso regularization. 
+
 **Hugo** : PCA, feature selection. 
+
 **Pierre** : matching and checking the influence of the Piso Firme. 
+
 **Together** : defining which plots should be made, report/data story and video. 
 
 ## Questions for the TAs
