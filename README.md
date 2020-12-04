@@ -5,7 +5,7 @@
 
 # Abstract
 
-The original publication, mentionned above, from which this study is derived, focused on the impact of a large-scale Mexican program that replaces dirt floors with cement floors on the health of children and happiness of adults. Here we proposed to continue the work begun by the authors by using machine learning algorithms to get models with higher reliability, robustness and accuracy. It would especially be centered on finding the main causes of diseases with techniques such as lasso regularization and feature selection algorithm. Then we will investigate about the influence of the program Piso Firme on these features using statistical tools.
+The original publication, mentioned above, from which this study is derived, focused on the impact of a large-scale Mexican program that replaces dirt floors with cement floors on the health of children and happiness of adults. Here we proposed to estimate the importance of Piso Firme on children's health. The first part will be focused on using Machine Learning algorithms to identify features that are important for children's health : we will define a target (general health status) using the different outcomes about health already present in the data and then, using feature selection methods to come up with a simple and interpretable model for children's health. The rest will be about conducting an observational study using selected features as potential confounders. 
 
 ## Research questions
 
@@ -19,30 +19,33 @@ The [original dataset](https://www.openicpsr.org/openicpsr/project/114542/versio
 ## Methods
 
  1. Imputation of the missing values with a K-Nearest Neighbor algorithm. 
- 2. Lasso regularization
- 3. PCA
- 4. Pair-matching
- 5. Recursive feature selection
+ 2. Construction of the target for machine learning algorithms. 
+ 3. Feature selection : 
+                                    - recursive feature selection
+                                    - Pearson's correlation
+                                    - Chi-2
+                                    - Lasso regularization
+4. Construction of a logistic regression model based on selected features. 
+5. Outcome analysis (without matching).
+6. Calculate propensity scores, based on selected features. 
+7. Find the best matching using the propensity scores (bipartite graph). 
+8. Balance checking.
+9. Outcome analysis (with matching).
+10. Sensitivity analysis (if time allows)
 
 ## Proposed timeline
 
-**Week 1** : handling missing values, lasso regularization and PCA to identify relevant features. 
+**Week 1** : generation of the logistic regression model, feature selection, feature engineering and first outcome analysis. Generate propensity scores.
 
-**Week 2** : pair matching to visualize the effect of Piso Firme on the selected features. 
-
-**Week 3** : generation of plots for the report and data story. Start with the report/data story. 
-
-**Week 4** : preparation of the video. 
+**Week 2** : Generation balanced samples using matching, second outcome analysis, and sensitivity analysis
 
 ## Organization within the team
 
-**Elia** : dealing with missing values. Lasso regularization. 
+**Elia** : preparation of the logistic regression model (feature selection, feature engineering), interpreting results.
 
-**Hugo** : PCA, feature selection. 
+**Hugo** : preparation of the logistic regression model (feature selection, feature engineering), interpreting results.
 
-**Pierre** : matching and checking the influence of the Piso Firme. 
-
-**Together** : defining which plots should be made, report/data story and video. 
+**Pierre** : generation of propensity scores and matching, interpreting results. Sensitivity analysis. 
 
 ## Questions for the TAs
 
