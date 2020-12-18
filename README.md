@@ -45,7 +45,7 @@ The [original dataset](https://www.openicpsr.org/openicpsr/project/114542/versio
 
 **Week 1** : generation of the logistic regression model, feature selection, feature engineering and first outcome analysis. Generate propensity scores.
 
-**Week 2** : Generation balanced samples using matching, second outcome analysis, and sensitivity analysis
+**Week 2** : Generation balanced samples using matching, second outcome analysis.
 
 ## Organization within the team
 
@@ -53,7 +53,7 @@ The [original dataset](https://www.openicpsr.org/openicpsr/project/114542/versio
 
 **Hugo** : preparation of the logistic regression model (feature selection, feature engineering), interpreting results.
 
-**Pierre** : generation of propensity scores and matching, interpreting results. Sensitivity analysis. 
+**Pierre** : generation of propensity scores and matching, interpreting results.
 
 
 
