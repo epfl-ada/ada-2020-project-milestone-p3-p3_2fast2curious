@@ -8,7 +8,8 @@
 The notebook has already been run but in case you would like to run it the code most import missingno, lightGBM
  - `!pip install missingno`
  - `!pip install lightGBM`
-Also the data has been deleted if you want to run the code you have to place the data to the `\data` folder.
+
+Also if you want to run the code you have to place the data to the `\data` folder.
 
 # Abstract
 
@@ -38,7 +39,7 @@ The [original dataset](https://www.openicpsr.org/openicpsr/project/114542/versio
 7. Find the best matching using the propensity scores (bipartite graph). 
 8. Balance checking.
 9. Outcome analysis (with matching).
-10. Sensitivity analysis (if time allows)
+
 
 ## Proposed timeline
 
