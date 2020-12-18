@@ -8,7 +8,7 @@
 The notebook has already been run but in case you would like to run it the code most import missingno, lightGBM
  - `!pip install missingno`
  - `!pip install lightGBM`
-Also the data has been deleted. 
+Also the data has been deleted if you want to run the code you have to place the data to the `\data` folder.
 
 # Abstract
 
