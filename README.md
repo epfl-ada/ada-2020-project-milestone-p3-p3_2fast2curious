@@ -5,7 +5,7 @@
 
 # Abstract
 
-The original publication, mentioned above, from which this study is derived, focused on the impact of a large-scale Mexican program that replaces dirt floors with cement floors on the health of children and happiness of adults. Here we proposed to estimate the importance of Piso Firme on children's health. The first part will be focused on using Machine Learning algorithms to identify features that are important for children's health : we will define a target (general health status) using the different outcomes about health already present in the data and then, using feature selection methods to come up with a simple and interpretable model for children's health. The rest will be about conducting an observational study using selected features as potential confounders. 
+Piso Firme is a large-scale Mexican program that replaces dirt floors with cement floors. This study aims to identify main causes of children's diseases with the help of machine learning methods and estimate the impact of Piso Firme on exposure to disease by developing an observational study. Using a set of indicators from a survey conducted in 2005 about a cohort of 6 693 individuals living in both cities targeted or not by the program, a logistic regression model was trained to estimate identify the most relevant and interpretable combination of features. Considering results from the logistic regression, an observational study was conducted and results were then compared with those from a naive study. Said results can help identify targets for the improvement of children's development and health. 
 
 ## Research questions
 
